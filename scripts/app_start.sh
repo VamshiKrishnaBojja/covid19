@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/ec2-user/server
+cd /home/ubuntu/server
 serve -s build > /dev/null 2> /dev/null < /dev/null &
 #npm start
 #npm run-script build
