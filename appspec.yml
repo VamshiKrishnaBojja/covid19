@@ -19,6 +19,7 @@ hooks:
   # During the BeforeInstall deployment lifecycle event, run the commands
   #   in the script specified in "location".
   BeforeInstall:
+    - location: scripts/backup.sh
     - location: scripts/before_install.sh
       timeout: 1000        
       runas: root
