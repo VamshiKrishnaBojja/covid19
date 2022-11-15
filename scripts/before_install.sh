@@ -1,4 +1,4 @@
 #!/bin/bash
 cd /home/ubuntu/server
-curl -sL https://rpm.nodesource.com/setup_16.x | sudo -E bash -
-apt -y install nodejs
+curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
+yum -y install nodejs npm
